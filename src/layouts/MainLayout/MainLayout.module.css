@@ -1,0 +1,11 @@
+.mainLayout{
+    max-width: 1020px;
+    padding: 0 20px;
+    margin: 0 auto 50px auto;
+}
+/*@media screen and(max-width: 414px) {*/
+/*    .mainLayout{*/
+/*        width: 360px;*/
+/*    }*/
+
+/*}*/

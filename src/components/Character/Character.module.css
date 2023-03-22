@@ -1,0 +1,31 @@
+.Card {
+    box-sizing: border-box;
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    /*border-radius: 10px;*/
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.photo img{
+    height: 224px;
+    width:240px;
+    border-radius:10px 10px 0px 0px;
+}
+.photo{
+    width: 100%;
+    height: 75%;
+}
+.info{
+    padding: 16px 12px;
+    box-sizing: border-box;
+    color: silver;
+    font-weight: bolder;
+}
+.info span{
+    font-size: 20px;
+    color:black;
+}
+
